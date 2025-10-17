@@ -8,40 +8,40 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Reservation Hotel Room</h1>
+    <h1><i class="fas fa-hotel"></i> Reservation Hotel Room</h1>
 
     <form action="" method="post" enctype="multipart/form-data">
       <fieldset>
         <legend>Personal Data</legend>
-        <label for="name">1. Name</label><br />
+        <label for="name"><i class="fas fa-user"></i>Name</label><br />
         <input type="text" id="name" name="name" />
         <br /><br />
 
-        <label for="gender">2. Gender</label><br />
+        <label for="gender"><i class="fas fa-venus-mars"></i>Gender</label><br />
         <input type="text" id="gender" name="gender" />
         <br /><br />
 
-        <label for="email">3. Email Address</label><br />
-        <input type="text" id="email" name="email" />
+        <label for="email"><i class="fas fa-envelope"></i>Email Address</label><br />
+        <input type="email" id="email" name="email" />
         <br /><br />
 
-        <label for="telp">4. Telp Number</label><br />
-        <input type="text" id="telp" name="telp" />
+        <label for="telp"><i class="fas fa-phone"></i>Telp Number</label><br />
+        <input type="tel" id="telp" name="telp" />
         <br />
       </fieldset>
       <br />
 
       <fieldset>
         <legend>Reservation Room form</legend>
-        <label for="reservation_name">1. Reservation Name</label><br />
+        <label for="reservation_name"><i class="fas fa-calendar-check"></i>Reservation Name</label><br />
         <input type="text" id="reservation_name" name="reservation_name" />
         <br /><br />
 
-        <label for="booking_date">2. Booking date</label><br />
-        <input type="text" id="booking_date" name="booking_date" />
+        <label for="booking_date"><i class="fas fa-calendar"></i>Booking date</label><br />
+        <input type="date" id="booking_date" name="booking_date" />
         <br /><br />
 
-        <label for="room_type">3. Room Type</label><br />
+        <label for="room_type"><i class="fas fa-bed"></i>Room Type</label><br />
         <select id="room_type" name="room_type">
           <option value="deluxe" selected="selected">Deluxe</option>
           <option value="suite">Suite</option>
@@ -49,14 +49,14 @@
         </select>
         <br /><br />
 
-        <label for="bed_type">4. Bed Type</label><br />
+        <label for="bed_type"><i class="fas fa-bed"></i>Bed Type</label><br />
         <select id="bed_type" name="bed_type">
           <option value="single" selected="selected">Single bed</option>
           <option value="double">Double bed</option>
         </select>
         <br /><br />
 
-        <label>5. Breakfast</label><br />
+        <label><i class="fas fa-utensils"></i>Breakfast</label><br />
         <input type="radio" id="with_breakfast" name="breakfast" value="with" />
         <label for="with_breakfast">With Breakfast</label>
         <input type="radio" id="without_breakfast" name="breakfast" value="without" />
@@ -67,15 +67,15 @@
 
       <fieldset>
         <legend>Payment</legend>
-        <label for="check_in_date">1. Check in date</label><br />
-        <input type="text" id="check_in_date" name="check_in_date" />
+        <label for="check_in_date"><i class="fas fa-calendar-plus"></i>Check in date</label><br />
+        <input type="date" id="check_in_date" name="check_in_date" />
         <br /><br />
 
-        <label for="check_out_date">2. Check out date</label><br />
-        <input type="text" id="check_out_date" name="check_out_date" />
+        <label for="check_out_date"><i class="fas fa-calendar-minus"></i>Check out date</label><br />
+        <input type="date" id="check_out_date" name="check_out_date" />
         <br /><br />
 
-        <label for="payment_method">3. Payment Method</label><br />
+        <label for="payment_method"><i class="fas fa-credit-card"></i>Payment Method</label><br />
         <select id="payment_method" name="payment_method">
           <option value="cash" selected="selected">Cash</option>
           <option value="qris">QRIS</option>
@@ -84,9 +84,7 @@
         </select>
         <br />
       </fieldset>
-      <br />
-
-      <input type="submit" value="Submit" />
+      <button type="submit"><i class="fas fa-paper-plane"></i> Submit</button>
     </form>
   </body>
 </html>
